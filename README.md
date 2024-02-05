@@ -39,14 +39,14 @@
 
 - Use VS Code or any other IDE and then clone the project locally using:
 
--- git clone https://github.com/AyushBarai/REST_API.git
+    git clone https://github.com/AyushBarai/REST_API.git
 
 2. Install dependencies:
 
 - Go to the project file and install dependencies using:
 
--- cd {filename}
--- npm install
+    cd {filename}
+    npm install
 
 3. Install and run MongoDB Compass in the background.
 
