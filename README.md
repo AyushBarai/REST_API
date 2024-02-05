@@ -39,7 +39,7 @@
 
 - Use VS Code or any other IDE and then clone the project locally using:
 
-    git clone https://github.com/AyushBarai/REST_API.git
+    $ git clone https://github.com/AyushBarai/REST_API.git
 
 2. Install dependencies:
 
