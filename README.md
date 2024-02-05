@@ -38,28 +38,28 @@
 1. Clone the repository:
 
 - Use VS Code or any other IDE and then clone the project locally using:
-
-    $ git clone https://github.com/AyushBarai/REST_API.git
-
+```bash
+    git clone https://github.com/AyushBarai/REST_API.git
+```
 2. Install dependencies:
 
 - Go to the project file and install dependencies using:
-
+```bash
     cd {filename}
     npm install
-
+```
 3. Install and run MongoDB Compass in the background.
 
 4. Run the server:
-
--- npm start
-
+```bash
+    npm start
+```
 5. Testing:
 
 - Run tests using Jest:
-
--- npm test
-
+```bash
+   npm test
+```
 ## API Endpoints ##
 
 - POST /api/products: Create a new product.
@@ -72,7 +72,11 @@
 ## Postman ##
 
 - POST Product Operation
-Endpoint: http://localhost:3000/api/products
+Endpoint:
+```bash
+http://localhost:3000/api/products
+```
+```bash
 Json Body:
 {
   "name": "New Product",
@@ -87,15 +91,24 @@ Json Body:
     }
   ]
 }
+```
 
 - GET Product Operation
-Endpoint: http://localhost:3000/api/products/
-
+Endpoint:
+```bash
+http://localhost:3000/api/products/
+```
 - GET Product Operation by ID
-Endpoint: http://localhost:3000/api/products/{ProductID}
-
+Endpoint:
+```bash
+http://localhost:3000/api/products/{ProductID}
+```
 - PUT Operation
-Endpoint: http://localhost:3000/api/products/65bde6a39ee5e92c36125561
+Endpoint:
+```bash
+http://localhost:3000/api/products/65bde6a39ee5e92c36125561
+```
+```bash
 Json Body:
 {
   "name": "New Product 2",
@@ -110,9 +123,14 @@ Json Body:
     }
   ]
 }
-
+```
 - DELETE Operation
-Endpoint: http://localhost:3000/api/products/{ProductID}
-
+Endpoint:
+```bash
+http://localhost:3000/api/products/{ProductID}
+```
 - GET Search Query
-Endpoint: http://localhost:3000/api/products/search/{name, description, or variant name}
+Endpoint:
+```bash
+http://localhost:3000/api/products/search/{name, description, or variant name}
+```
