@@ -25,11 +25,11 @@
 - Tests for search functionality.
 
 ## Technologies Used ##
--- Node.js
--- Express.js
--- MongoDB (Mongoose)
--- Jest (Testing)
--- REST API
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- Jest (Testing)
+- REST API
 
 
 
@@ -41,6 +41,7 @@
 ```bash
     git clone https://github.com/AyushBarai/REST_API.git
 ```
+
 2. Install dependencies:
 
 - Go to the project file and install dependencies using:
@@ -48,18 +49,21 @@
     cd {filename}
     npm install
 ```
+
 3. Install and run MongoDB Compass in the background.
 
 4. Run the server:
 ```bash
     npm start
 ```
+
 5. Testing:
 
 - Run tests using Jest:
 ```bash
    npm test
 ```
+
 ## API Endpoints ##
 
 - POST /api/products: Create a new product.
@@ -93,16 +97,21 @@ Json Body:
 }
 ```
 
+
 - GET Product Operation
 Endpoint:
 ```bash
 http://localhost:3000/api/products/
 ```
+
+
 - GET Product Operation by ID
 Endpoint:
 ```bash
 http://localhost:3000/api/products/{ProductID}
 ```
+
+
 - PUT Operation
 Endpoint:
 ```bash
@@ -124,11 +133,15 @@ Json Body:
   ]
 }
 ```
+
+
 - DELETE Operation
 Endpoint:
 ```bash
 http://localhost:3000/api/products/{ProductID}
 ```
+
+
 - GET Search Query
 Endpoint:
 ```bash
